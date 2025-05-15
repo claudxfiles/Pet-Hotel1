@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global base styles here if needed, for example: */
+@layer base {
+  body {
+    @apply bg-petstay-gray-50 text-petstay-gray-900 dark:bg-petstay-gray-900 dark:text-petstay-gray-100;
+    /* This applies a base background and text color using the new palette */
+  }
+}
